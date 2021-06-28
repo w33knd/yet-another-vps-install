@@ -2,7 +2,7 @@
 
 apt-get update && apt-get upgrade;
 apt install snap
-wget https://dl.google.com/go/go1.14.6.linux-amd64.tar.gz;
+wget https://dl.google.com/go/go1.16.5.linux-amd64.tar.gz;
 sudo tar -xvf go1.14.6.linux-amd64.tar.gz;
 sudo mv go /usr/local;
 export GOROOT=/usr/local/go;
